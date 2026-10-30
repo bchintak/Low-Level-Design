@@ -24,7 +24,7 @@ public class Account {
     }
 
     public void debit(double amount) {
-        balance -= amount;
+        balance += amount;
     }
 
     public void setBalance(double balance) {
